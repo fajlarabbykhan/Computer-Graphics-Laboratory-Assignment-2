@@ -28,3 +28,15 @@ clicking on it. To make your program work, you will need to add at line 14:#incl
 * Press OK to select the library.
 * Press OK to close the Project's Build Options.
 * Press F9 to do a Build & Run of your project.
+
+## Here's an overview of the main components and functionalities:
+* (**Player Model:**) - The drawPlayer function is responsible for rendering the 3D model of the cricket player. It includes a head, body, arms, legs, and a bat in hand.
+* (**Ball Model:**) - The drawBall function renders a 3D sphere representing the cricket ball.
+* (**Throwing the Ball:**) - The throwBall function is called when the spacebar key is pressed, initiating the ball-throwing animation.
+* (**Animation:**) -  The animate function updates the animation state, including the rotation of the player's bat and the trajectory of the thrown ball.
+* (**Camera Control:**) -  The keyboard_action function allows the user to control the camera's position using the number keys (1-6). The spacebar is used to throw the ball.
+* (**Initialization:**) -  The init function sets up the initial OpenGL configurations.
+* (**Main Function**) -  The main function initializes GLUT and sets up the main rendering loop. The program responds to display, idle, and keyboard events.
+* (**Main Function**) -  The main function initializes GLUT and sets up the main rendering loop. The program responds to display, idle, and keyboard events.
+* The code includes the necessary OpenGL and GLUT headers (windows.h, GL/glut.h) and defines various geometric shapes drawing functions (drawAxes, drawGrid, drawCylinder, drawCone, 
+  drawSphere).
