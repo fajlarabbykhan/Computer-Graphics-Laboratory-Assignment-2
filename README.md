@@ -37,6 +37,5 @@ clicking on it. To make your program work, you will need to add at line 14:#incl
 * **Camera Control:** -  The keyboard_action function allows the user to control the camera's position using the number keys (1-6). The spacebar is used to throw the ball.
 * **Initialization:** -  The init function sets up the initial OpenGL configurations.
 * **Main Function** -  The main function initializes GLUT and sets up the main rendering loop. The program responds to display, idle, and keyboard events.
-* **Main Function** -  The main function initializes GLUT and sets up the main rendering loop. The program responds to display, idle, and keyboard events.
 * The code includes the necessary OpenGL and GLUT headers (windows.h, GL/glut.h) and defines various geometric shapes drawing functions (drawAxes, drawGrid, drawCylinder, drawCone, 
   drawSphere).
